@@ -1,0 +1,16 @@
+{
+  "name": "LinkBot",
+  "version": "1.0.0",
+  "description": "Pulls work-items from TFS/VSTS into slack channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Brian Geraghty",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "vso-node-api": "^5.0.5"
+  }
+}
